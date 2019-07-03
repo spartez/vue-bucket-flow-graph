@@ -1,6 +1,6 @@
 {
   "name": "vue-bucket-flow-graph",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bucket flow graph VueJS component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
