@@ -1,0 +1,49 @@
+{
+  "name": "vue-bucket-flow-graph",
+  "version": "0.0.1",
+  "description": "Bucket flow graph VueJS component",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.min.js",
+  "files": ["dist/*"],
+  "scripts": {
+    "build": "rollup -c",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "keywords": [
+    "vue",
+    "graph",
+    "visualization",
+    "bucket",
+    "flow",
+    "sankey",
+    "funnel"
+  ],
+  "author": "Michał Nykiel",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@spartez/eslint-config-vue": "^1.0.3",
+    "@storybook/vue": "^5.1.8",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.1.4",
+    "eslint": "^5.16.0",
+    "rollup": "^1.16.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-css-only": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-terser": "^5.1.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "p-debounce": "^2.1.0"
+  }
+}

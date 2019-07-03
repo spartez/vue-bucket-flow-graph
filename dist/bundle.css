@@ -1,0 +1,39 @@
+
+.container[data-v-58884e70] {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+}
+.svg[data-v-58884e70] {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+.step text[data-v-8c1326ca] {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    fill: #172b4d;
+}
+
+.labels text[data-v-05db7b6e] {
+    fill: white;
+}
+
+.bucket text[data-v-7360eb64] {
+    fill: white;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-width: 2px;
+    paint-order: stroke;
+}
+.bucket text.value[data-v-7360eb64] {
+    font-size: 1.5em;
+}
+.drop text[data-v-7360eb64] {
+    font-size: 0.8em;
+    fill: #ff5630;
+}
